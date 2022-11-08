@@ -1,0 +1,5 @@
+# exclude everything
+#/*
+lib/*
+# exception to the rule
+#!src/

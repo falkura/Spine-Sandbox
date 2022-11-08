@@ -1,0 +1,44 @@
+{
+    "name": "spinesandbox",
+    "version": "1.0.0",
+    "description": "sandbox for spine animation",
+    "main": "src/index.ts",
+    "scripts": {
+        "test": "npm run test",
+        "local": "webpack serve --config-name local",
+        "dev": "webpack --config-name dev"
+    },
+    "repository": {
+        "type": "git",
+        "url": "spine-sandbox"
+    },
+    "keywords": [
+        "spine",
+        "pixijs",
+        "sandbox"
+    ],
+    "author": "Vlad Kyiashko",
+    "license": "ISC",
+    "devDependencies": {
+        "@pixi/core": "^5.3.10",
+        "@types/dat.gui": "^0.7.7",
+        "@typescript-eslint/eslint-plugin": "^4.27.0",
+        "@typescript-eslint/parser": "^4.27.0",
+        "clean-webpack-plugin": "^3.0.0",
+        "copy-webpack-plugin": "^9.0.0",
+        "dat.gui": "^0.7.9",
+        "eslint": "^7.28.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^3.4.0",
+        "pixi-spine": "^2.1.10",
+        "pixi.js": "^5.3.3",
+        "prettier": "^2.3.1",
+        "ts-loader": "^9.2.3",
+        "tslib": "^2.3.1",
+        "typescript": "^4.3.2",
+        "url-loader": "^4.1.1",
+        "webpack": "^5.39.0",
+        "webpack-cli": "^4.7.2",
+        "webpack-dev-server": "^4.9.3"
+    }
+}
