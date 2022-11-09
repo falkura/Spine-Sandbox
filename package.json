@@ -1,12 +1,13 @@
 {
-    "name": "spinesandbox",
-    "version": "1.0.0",
+    "name": "spine-sandbox",
+    "version": "1.0.1",
     "description": "sandbox for spine animation",
     "main": "src/index.ts",
     "scripts": {
         "test": "npm run test",
         "local": "webpack serve --config-name local",
-        "dev": "webpack --config-name dev"
+        "dev": "webpack --config-name dev",
+        "deploy": "npm run dev && gh-pages -d dist"
     },
     "repository": {
         "type": "git",
